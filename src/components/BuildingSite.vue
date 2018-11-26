@@ -33,14 +33,14 @@ export default {
     },
     taskPayChange : function (event) {
       this.taskPay = event.target.value
-    },
+    }
     /* workerTasks: function (h, tasks) {
       if (tasks.length>0) {
         return (<span>
         {', number of tasks: ' + tasks.length}</span>)
       }
-    }
-  }, */
+    } */
+  }, 
   data() {
     return {
       workerFirstName: '',
