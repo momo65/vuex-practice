@@ -1,10 +1,3 @@
-<template>
-  <div class="hello">
-    <BuildingSite></BuildingSite><br />
-    <EatingSite></EatingSite><br />
-    <!--<GamingSite></GamingSite>-->
-  </div>
-</template>
 
 <script>
 import EatingSite from './EatingSite'
@@ -12,11 +5,14 @@ import BuildingSite from './BuildingSite'
 
 export default {
   name: 'HelloWorld',
-  components:{
-    EatingSite,
-    BuildingSite
-  },
-  props: {
+  render (h) {
+    //<GamingSite></GamingSite>
+    return (
+      <div class="hello">
+        <BuildingSite></BuildingSite><br />
+        <EatingSite></EatingSite><br />
+      </div>
+    )
   }
 }
 </script>

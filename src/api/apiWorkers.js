@@ -3,7 +3,7 @@ const _workers = [
     {name:"install elevator",pay:600},{name:"fix grounds",pay:415}]},{firstName:"Paul",lastName:"Artney",age:24,
     tasks:[{name:"paint walls",pay:215},{name:"build walls",pay:270}]},
     {firstName:"Salomon",lastName:"Waber",age:28,tasks:[{name:"install elevator",pay:600},
-    {name:"fix grounds",pay:415}]}
+    {name:"fix grounds",pay:415}]}, { firstName: 'Paul', lastName: 'beibor', age: 32, tasks: [] }
 ]
 
 const _tasks = [
